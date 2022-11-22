@@ -1,0 +1,78 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.factpurple{
+    background-color: #A062D0; width: fit-content; padding: 10px; font-weight: 400;
+}
+.factgreen{
+    background-color: #64E8B0; width: fit-content; padding: 10px; font-weight: 400;
+}
+.dogimg{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.textimg{
+    height: 250px; width: 350px;
+    position: absolute;
+    top: 120px;
+    left: 230px;
+}
+.bestfunfact{
+    position: absolute;
+    top: 190px;
+    left: 280px;
+    font-size: medium;
+}
+.funfactsheading1{
+    position: absolute;
+    top: 200px;
+    left: 615px;
+}
+.funfactsheading2{
+    position: absolute;
+    top: 560px;
+    left: 640px;
+}
+#factpurple1{
+    position: absolute;
+    top: 30px;
+    left: 400px;
+}
+#factgreen1{
+    position: absolute;
+    left: 900px;
+    top: 120px;
+    right: 70px;
+}
+#factgreen2{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+#factgreen3{
+    position: absolute;
+    bottom: 50px;
+    left: 700px;
+}
+#factpurple3{
+    position: absolute;
+    left: 950px;
+    top: 400px;
+}
+#factpurple2{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+.logo{
+    font-weight: 800;
+    font-size: 80px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 15px;
+}

@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: 800;
+    font-size: 80px;
+    color: black;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.navbuttons{
+    color: black;
+    padding: 0 30px;
+    font-size: 25px;
+    
+}
+.adopt{
+    background-color: #4BD8EB;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.dogs_img{
+    height: 800px;
+    width: 600px;
+    margin-left: 40px;
+}
+.adopt_heading{
+    font-weight: 500;
+    font-size: 75px;
+    color: #A062D0;
+}
+.home_buttons{
+    background-color: #64E8B0;
+    border-style: none;
+    padding: 20px 40px;
+    margin-top: 60px;
+    font-size: 25px;
+    
+}
+.main{
+    display: flex;
+}
+.right_side_main{
+    margin-top: 120px;
+    margin-left: 70px;
+    text-align: center;
+}
+.button{
+     margin-left: 20px;
+     background-color: white;
+     border: 5px solid #64E8B0;
+     padding: 15px 35px;
+}
+.secondpage{
+    padding-top: 100px;
+    display: flex;
+}
+.seconddogimg{
+    height: 800px;
+    width: 650px;
+}
+.quote{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.secondpagebutton{
+    height: 80px;
+    width: 150px;
+    font-size: 20px;
+    border-style: none;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+    border: solid black 5px;
+}
+.formheading{
+    font-weight: 500;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.formdiv{
+    display: flex;
+}
+label{
+    color: #2CADBE;
+    margin-left: 100px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+input{
+    margin-left: 100px;
+}
+.submit{
+    margin-left: 100px;
+    background-color: #A062D0;
+    border: black;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+}
+.textbox{
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 70%;
+    height: 40px;
+    padding-left: 10px;
+}
