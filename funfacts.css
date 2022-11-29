@@ -1,9 +1,37 @@
 *{
     font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-a{
+
+.funfactspage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 60%;
+    margin-top: 70px;
+
+}
+
+ a{
     text-decoration: none;
 }
+
+.logo{
+    font-weight: 800;
+    font-size: 80px;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+/*
 .factpurple{
     background-color: #A062D0; width: fit-content; padding: 10px; font-weight: 400;
 }
@@ -69,10 +97,4 @@ a{
     bottom: 100px;
     left: 100px;
 }
-.logo{
-    font-weight: 800;
-    font-size: 80px;
-    color: black;
-    margin-left: 20px;
-    margin-top: 15px;
-}
+ */
