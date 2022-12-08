@@ -127,13 +127,13 @@ form{
 }
 
 .formimg{
-    height: 30%;
+    height: 20%;
 }
 
 .formheading{
     font-weight: 500;
     font-size: 80px;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -149,7 +149,7 @@ form{
     margin-top: 60px;
     margin-bottom: 30px;
     border: 0;
-    background-color:  #00E7FF;
+    background-color:  #52bf91;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     width: 100%;
@@ -168,15 +168,17 @@ form{
     outline: none;
 }
 
-
-
-
-
+.btn-submit{
+    display: flex;
+    justify-content: center;
+}
 
 .submit{
     background-color: #A062D0;
-    border: black;
-    height: 40px;
-    width: 120px;
-    font-size: 20px;
+    border: none;
+    margin-top: 40px;
+    padding: 20px 100px;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
 }
